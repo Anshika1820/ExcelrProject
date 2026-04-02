@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(223, 240, 223);
+        }
+        .main{
+            letter-spacing: 2px;
+            text-align: center;
+            color: rgb(59, 79, 59);
+        }
+        ul{
+            /* display: flex; */
+            /* padding-left: 350px;
+            padding-right: 80px; */
+            padding-left: 0%;
+            li{
+                padding-bottom: 10px;
+                padding-top: 10px;
+                width: 150px;
+                text-align: center;
+                margin-bottom: 20px;
+                background-color: rgb(59, 79, 59);
+            }
+          a{
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(223, 240, 223);
+            /* display: inline-block; */
+            /* padding-right: 120px;
+            align-items: center; */
+            cursor: pointer;
+          }  
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img{
+            height: auto;
+            width: 400px;
+        }
+        .form-group{
+            margin-bottom: 10px;
+        }
+        form{
+            label{
+                margin-right: 10px;
+                font-size: 20px;
+            }
+            input{
+                width: 200px;
+                height: 30px;
+            }
+            textarea{
+                width: 300px;
+                height: 60px;
+            }
+            .btn{
+                margin-left: 10px;
+                width: 100px;
+                height: 30px;
+                font-size: 15px;
+                background-color: rgb(59, 79, 59);
+                color: rgb(223, 240, 223);
+            }
+        }
+        .location{
+            p{
+                font-size: 20px;
+            }
+        }
+        a{
+            color: rgb(59, 79, 59);
+            font-size:large;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Contact Us</h1>
+        <hr>
+        <ul>
+            <li><a href="./Index.html">Home</a></li>
+            <li><a href="./Index.html#About">About Us</a></li>
+            <li><a href="./Index.html#ourMenu">Our Menu</a></li>
+            <li><a href="./storeHours.html">Store Hours</a></li>
+        </ul>
+        
+    </div>
+    <img src="./images/3.png" alt="Tacos and a drink" title="Tacos and a Drink">
+    <hr>
+    <div class="form">
+        <h1>Our Contact Form</h1>
+        <form action="">
+           <fieldset>
+            <legend><strong>Send Us Message</strong></legend>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="" id="" placeholder="Enter your Name" class="required">
+            </div>
+            <div class="form-group">
+                <label for="name">Email:</label>
+                <input type="email" name="" id="" placeholder="Enter your Email" class="required">
+            </div>
+            <div class="form-group">
+                <label for="name">Your Message:</label><br>
+                <textarea name="" id=""></textarea>
+            </div>
+           </fieldset>
+           <br> 
+           <input type="button" value="Submit" class="btn">
+           <input type="button" value="Reset" class="btn">
+        </form>
+    </div>
+    <br>
+    <div class="location">
+        <h1>Our Location</h1>
+        <p>555 Taco Temptation Lane, Suite T <br> Taco Town, CA 90210 <br>  Phone: <a href="tel:+">555-555-5555</a></p>
+    </div>
+    <a href="./ContactUs.html">Back  to top</a>
+    <hr>
+    <p style="text-align: center;"> <span class="copyright">&copy;</span> The Little Taco Shop</p>
+</body>
+</html>
